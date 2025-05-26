@@ -1,0 +1,89 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon", "Good evening", "What's up?", "How are you?"],
+            "responses": ["Hello! Welcome to GradieBears. 🎓 How can I help you today?", "Hi there! Ready to order your graduation teddy? 🧸", "Hey! Looking for the perfect graduation gift? Let me help!"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "I'm leaving", "Talk later", "Exit", "Close"],
+            "responses": ["Thank you for choosing GradieBears! 🎓", "Hope to see you again soon! 😊", "Your graduation teddy awaits! Come back anytime!"]
+        },
+        {
+            "tag": "products",
+            "patterns": ["What products do you have?", "Show me your teddies", "What options are available?", "What can I buy?", "What do you sell?", "Graduation gifts"],
+            "responses": [
+                "We have 3 graduation teddy packages:\n\n1️⃣ **Basic Graduation Teddy** (1500 LKR)\n   - Graduation hat\n   - Teddy bear\n\n2️⃣ **Classic Combo** (2000 LKR)\n   - Graduation hat\n   - Scroll\n   - Teddy bear\n\n3️⃣ **Premium Pack** (2500 LKR)\n   - Graduation hat\n   - Scroll\n   - Teddy bear\n   - Customizable medal\n\nAll teddies come in **white, brown, blue, pink, or light brown** colors. 🎨"
+            ]
+        },
+        {
+            "tag": "customization",
+            "patterns": ["Can I customize?", "University logo options", "Add name to hat", "Change medal design", "Personalize teddy", "Custom name"],
+            "responses": [
+                "We offer these customizations:\n\n🎓 **University logo on medal** (+70 LKR)\n✏️ **Add name on hat** (+100 LKR per name)\n\nDefault medal has the **GradieBears logo**, but you can replace it with your university logo!"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["Do you deliver?", "Delivery charges", "Free delivery?", "Island wide delivery?", "How long for delivery?", "Delivery time"],
+            "responses": [
+                "🚚 **Island-wide delivery available!**\n\n- Standard delivery: ~300 LKR (depends on distance)\n- **FREE delivery for University of Kelaniya students** 🎓\n- Cash on delivery accepted island-wide!"
+            ]
+        },
+        {
+            "tag": "ordering",
+            "patterns": ["How to order", "I want to buy", "Place an order", "Purchase teddy", "Buy now", "Order graduation teddy"],
+            "responses": [
+                "To order:\n\n1️⃣ Choose package (Basic/Classic/Premium)\n2️⃣ Select color (white/brown/blue/pink/light brown)\n3️⃣ Add customizations (if needed)\n4️⃣ Provide delivery address\n5️⃣ Confirm payment (Cash on Delivery)\n\nWould you like to start your order now? 😊"
+            ]
+        },
+        {
+            "tag": "kelaniya_student",
+            "patterns": ["I'm from Kelaniya", "University of Kelaniya", "Kelaniya student discount", "Free delivery for Kelaniya", "Kelaniya University"],
+            "responses": [
+                "🎓 **Special for University of Kelaniya students!**\n\n- FREE delivery 🚚\n- 5% discount on all orders (show student ID)\n\nWhat would you like to order today?"
+            ]
+        },
+        {
+            "tag": "color_options",
+            "patterns": ["What colors available?", "Teddy colors", "Color options", "Do you have pink?", "Which colors?", "Color selection"],
+            "responses": [
+                "Our teddies come in:\n\n⚪ **White**\n🟤 **Brown**\n🔵 **Blue**\n💗 **Pink**\n🟠 **Light Brown**\n\nWhich color would you like? 😊"
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["Payment methods", "How to pay?", "Cash on delivery?", "Online payment", "Bank transfer", "Payment options"],
+            "responses": [
+                "We accept:\n\n💵 **Cash on Delivery** (island-wide)\n📱 **Bank Transfer** (send receipt after payment)\n\nBank Details:\n- Bank: Commercial Bank\n- Account: GradieBears\n- Account No: 1234567890"
+            ]
+        },
+        {
+            "tag": "urgent_delivery",
+            "patterns": ["Need fast delivery", "Urgent order", "Express delivery", "Need it tomorrow", "Quick delivery"],
+            "responses": [
+                "🚀 **Express Delivery (24-48 hours)** available for +500 LKR!\n\nNote: Customizations may be limited for urgent orders."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Appreciate it", "Great help", "Awesome"],
+            "responses": ["You're welcome! 😊", "Happy to help! 🎓", "Our pleasure! Let us know if you need anything else."]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["Contact details", "Phone number", "Email", "How to reach you?", "Customer service"],
+            "responses": [
+                "📞 **Call Us:** +94 76 123 4567\n📧 **Email:** hello@gradiebears.lk\n📍 **Location:** Colombo, Sri Lanka\n\nWe're here to help! 😊"
+            ]
+        },
+        {
+            "tag": "price_inquiry",
+            "patterns": ["How much is basic?", "Price of premium?", "Cost of classic?", "What’s the price?", "Teddy price"],
+            "responses": [
+                "💰 **Pricing:**\n\n- Basic (Hat + Teddy): **1500 LKR**\n- Classic (Hat + Scroll + Teddy): **2000 LKR**\n- Premium (Hat + Scroll + Teddy + Medal): **2500 LKR**\n\nCustomizations cost extra."
+            ]
+        }
+    ]
+}
