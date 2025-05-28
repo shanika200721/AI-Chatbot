@@ -6,6 +6,7 @@
   The GradieBears Chatbot is an AI-powered web application designed to automate customer interactions for GradieBears, a Sri Lankan business specializing in customizable graduation teddy bears. The project combines natural language processing (NLP) and neural networks to create an intuitive, responsive chatbot that handles product inquiries, pricing, and customization requests in real time.
 
  <img src="screen shot.jpg" width="600">
+
 ## Key Features & Technologies
  1. AI-Driven Conversations:
     - Utilizes a TensorFlow/Keras neural network for intent classification
